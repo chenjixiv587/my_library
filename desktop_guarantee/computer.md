@@ -1,0 +1,1 @@
+- windows cmd 直接切换路径 `pushd <path>`
