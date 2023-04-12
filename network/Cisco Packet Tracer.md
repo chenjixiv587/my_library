@@ -51,6 +51,7 @@ Start from 2023-02-17_
   - `enable`
 
     - `configure terminal`
+      - `enable secret xxxx`
 
       - `line console 0`
 
@@ -63,3 +64,10 @@ Start from 2023-02-17_
 
 - `telnet`
   - 设备的 `IP` 用 `VLAN1` 来代表
+  - `line vty 0 15`
+  - `login local`
+  - `username xx password xx`
+  - `int vlan 1`
+  - `ip address 192.168.2.254 255.255.255.0`
+
+[cisco 交换机配置 ssh 远程登陆](https://my.oschina.net/xinsui1314x/blog/3078047)

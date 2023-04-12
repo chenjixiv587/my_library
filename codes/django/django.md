@@ -123,6 +123,13 @@ The pluralize filter adds a 's' suffix if the value is not 1. `pluralize` 过滤
 ```
 
 
+ `py -Xutf8  manage.py dumpdata --indent=2 --output=mysite_data.json` 备份数据库时候 需要注意 使用 utf8 格式 
+
+
+
+
+
+
 
 
 

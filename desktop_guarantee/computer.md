@@ -1,1 +1,2 @@
 - windows cmd 直接切换路径 `pushd <path>`
+- 连接共享打印机 报 0x00000040 错误 

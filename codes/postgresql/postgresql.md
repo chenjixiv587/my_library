@@ -5,7 +5,12 @@
 - `\h 加上命令 直接显示这个命令怎么用`
 
 ### 对数据库的操作
-- 创建新的用户  `CREATE USER user_name;`
+- 创建新的用户  `CREATE USER user_name;` 
+  - `psql -U postgres -c "CREATE USER blog WITH PASSWORD '123456';"`
+
+- 新加一个表 属于 某个用户`psql -U postgres -c "CREATE DATABASE blog OWNER blog ENCODING 'UTF8';"`
+
+
 - 增加  `CREATE DATABASE db_name;`
 - 删除  `DROP DATABASE IF EXISTS db_name;`
 - 修改 `ALTER DATABASE db_name RENAME TO new_db_name;`
